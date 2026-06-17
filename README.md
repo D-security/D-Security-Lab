@@ -1,2 +1,24 @@
-# D-Security-Lab
-Hands-on cybersecurity lab: VM setup, Linux practice, firewall configuration, attack/defense simulations
+# Exploiting vsFTPd 2.3.4 Vulnerability (Metasploitable Lab)
+
+## 🧠 Overview
+This project demonstrates a full end-to-end exploitation of a vulnerable FTP service (vsFTPd 2.3.4) on the Metasploitable virtual machine using Kali Linux and Metasploit.
+
+The objective was to identify a vulnerability, exploit it, and gain root-level access to the system.
+
+---
+
+## ⚙️ Lab Environment
+
+- Attacker: Kali Linux
+- Target: Metasploitable 2
+- Platform: VirtualBox
+- Network: Host-only network (192.168.56.0)
+
+---
+
+## 🔎 Reconnaissance
+
+The initial scan was performed using Nmap:
+
+```bash
+nmap -sV 192.168.56.103
