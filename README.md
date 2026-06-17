@@ -42,7 +42,7 @@ nmap -sV 192.168.56.103
 
 ### Exploit Search
 
-![Search Result](search.png)
+![Search Result](https://github.com/D-security/D-Security-Lab/blob/main/search.png))
 
 
 
