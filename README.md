@@ -22,3 +22,27 @@ The initial scan was performed using Nmap:
 
 ```bash
 nmap -sV 192.168.56.103
+```
+### Nmap Scan Result
+![Nmap Scan](nmap.png)
+
+## 💥 Exploitation
+
+### Exploit Execution
+
+![Exploit](exploit.png)
+
+![Exploit Step](exploit2.png)
+
+## 🧪 Post-Exploitation
+
+### Root Access
+
+![Root Shell](root.png)
+
+### Exploit Search
+
+![Search Result](search.png)
+
+
+
