@@ -6,15 +6,15 @@ Simulated a real-world cyber attack, detected malicious activity using Splunk SI
 
 ## Lab Architecture
 This diagram shows how traffic flows through the environment during the attack and detection process.
-
+---
 Kali Linux Attacker → Target VM (Metasploitable)
            ↓
       pfSense Firewall
            ↓
         Splunk SIEM
+---
 
-
-
+--
 ## 🧠 Overview
 This project simulates a real-world cyber attack against a vulnerable server, 
 followed by detection and response using SIEM and firewall controls.
