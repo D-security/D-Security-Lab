@@ -48,14 +48,14 @@ The log included:
 
 ---
 
-### 🔎 Detection Queries
+## 🔎 Detection Queries
 
-#### 🔑 Login Activity
+### 🔑 Login Activity
 
 ```spl
 login
 
-
+```
 ## Key Skills Demonstrated
 - Web exploitation (SQL injection)
 - Privilege escalation (Metasploit)
