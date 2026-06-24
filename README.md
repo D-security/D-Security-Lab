@@ -54,6 +54,8 @@ The log included:
 
 ```spl
 login
+index=* login
+``
 
 ```
 ## Key Skills Demonstrated
