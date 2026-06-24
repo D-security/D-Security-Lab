@@ -1,5 +1,20 @@
 # End-to-End SOC Simulation: Attack, Detection & Response (pfSense + Splunk)
 
+
+## TL;DR
+Simulated a real-world cyber attack, detected malicious activity using Splunk SIEM, and blocked it using pfSense firewall rules.
+
+## Lab Architecture
+This diagram shows how traffic flows through the environment during the attack and detection process.
+
+Kali Linux Attacker → Target VM (Metasploitable)
+           ↓
+      pfSense Firewall
+           ↓
+        Splunk SIEM
+
+
+
 ## 🧠 Overview
 This project simulates a real-world cyber attack against a vulnerable server, 
 followed by detection and response using SIEM and firewall controls.
@@ -22,6 +37,20 @@ mirroring how a SOC analyst investigates and responds to threats.
 - SIEM monitoring (Splunk)
 - Incident response lifecycle
 
+
+## Attack & Defense Workflow
+
+1. Reconnaissance (Nmap scan to identify open services)
+2. Exploitation (Metasploit used to exploit vsFTPd vulnerability)
+3. Privilege Escalation (Root access obtained)
+4. Detection Gap (No alerts triggered initially)
+5. Defensive Implementation
+   - pfSense firewall rules configured
+   - Splunk SIEM configured for log monitoring
+6. Detection & Response
+   - Suspicious activity logged in Splunk
+   - Alerts generated based on attack patterns
+   - Attack traffic blocked via firewall rules
 ---
 
 ## ⚙️ Lab Environment
