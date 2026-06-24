@@ -1,7 +1,12 @@
-# Exploiting vsFTPd 2.3.4 Vulnerability (Metasploitable Lab)
+# End-to-End SOC Simulation: Attack, Detection & Response (pfSense + Splunk)
 
 ## 🧠 Overview
-This project demonstrates a full end-to-end exploitation of a vulnerable FTP service (vsFTPd 2.3.4) on the Metasploitable virtual machine using Kali Linux and Metasploit.
+This project simulates a real-world cyber attack against a vulnerable server, 
+followed by detection and response using SIEM and firewall controls.
+
+The goal was to identify how an attacker gains access, 
+how the attack appears in logs, 
+and how security controls can prevent it.
 
 The objective was to identify a vulnerable service, exploit it using a known backdoor, and gain root-level access.
 
